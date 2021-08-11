@@ -1,9 +1,9 @@
 # API stability
 
 This library offers Go API bindings for ceph libraries and interfaces. In order
-to provide a stable exported API and also be able to get early feedback for
-early and possibly immature API designs, we maintain three levels of API
-stablity:
+to provide a stable exported API and at the same time be able to get early
+feedback for new and possibly immature API designs, we maintain three levels of
+API stablity:
 
 ## Stable
 
@@ -29,7 +29,7 @@ can't guarantee optimal performance.
 This is a level for APIs that are fresh and might need further refinements in
 following releases. These are marked with _PREVIEW_ in the documentation and are
 only available, if the build tag `ceph_preview` is set. There might be breaking
-changes in future releases reagarding preview APIs. Usually new exported APIs
+changes in future releases regarding preview APIs. Usually new exported APIs
 are introduced with this level first and become stable with a later release.
 Please note that while these APIs are still considered "unstable", this is not
 true for the quality of their implementations, which we regard as stable and
